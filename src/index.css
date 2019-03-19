@@ -5,9 +5,9 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: #e96443;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #904e95, #e96443); 
+  background: #4378e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e6295, #4378e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7b7be1, #0772f4); 
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
 }
 .boton {
-  background-color: #00838F!important;
+  background-color: rgb(49, 47, 126)!important;
   font-size: 16px;
   width: 100%;
   padding: 15px;
@@ -27,7 +27,7 @@ body {
   cursor: pointer;
 }
 header {
-  background-color:#26C6DA;
+  background-color:rgb(63, 73, 116);
   padding: 10px;
   font-weight: bold;
   color: white;
@@ -85,7 +85,7 @@ header h1 {
   margin-bottom: 40px;
 }
 .resultado div {
-  border: 1px solid #26C6DA;
+  border: 1px solid rgb(63, 73, 116);
   text-align: center;
   padding: 0  0 20px 0;
 }
@@ -93,7 +93,7 @@ header h1 {
   margin-bottom: 0;
 }
 .resultado div p.header {
-  background-color: #26C6DA;
+  background-color: rgb(63, 73, 116);
   margin-bottom: 10px;
   color:white;
   padding: 10px;
@@ -131,9 +131,10 @@ span.resultado {
 
 .gran-total {
   text-align: center;
+  color: #fff;
   padding: .5rem;
-  border: 1px solid #26C6DA;
-  background-color: rgb(127, 224, 237);
+  border: 1px solid rgb(18, 7, 70);
+  background-color: rgb(85, 98, 156);
   margin-top: 1rem;
 }
 .gran-total p {
@@ -143,7 +144,7 @@ span.resultado {
 .resumen {
   padding: 1rem;
   text-align: center;
-  background-color: #00838F;
+  background-color: rgb(85, 98, 156);
   color: white;
   margin-top: 1rem;
 }
